@@ -1,0 +1,7 @@
+{
+  "hetzner": {
+    "TYPE": "HETZNER",
+    "api_key": "$HETZNER_APIKEY",
+    "optimize_for_rate_limit_quota": "Minute"
+  }
+}
