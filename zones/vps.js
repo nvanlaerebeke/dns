@@ -1,16 +1,20 @@
 var VPS_IP = "162.55.160.10";
 var domains = {
     'crazymanga.be' : [
-        A("@", VPS_IP)
+        A("@", VPS_IP),
+        CNAME('*', '@')
     ],
     'crazyzone.be' : [
-        A("@", VPS_IP)
+        A("@", VPS_IP),
+        CNAME('*', '@')
     ],
     'crazytje.com' : [
-        A("@", VPS_IP)
+        A("@", VPS_IP),
+        CNAME('*', '@')
     ],
     'crazytje.be' : [
-        A("@", VPS_IP)
+        A("@", VPS_IP),
+        CNAME('*', '@')
     ],
 };
 
