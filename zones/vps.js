@@ -6,7 +6,7 @@ var domains = {
     ],
     'crazyzone.be' : [
         A("@", VPS_IP),
-        CNAME('*', '@')
+        CNAME('gateway', '@')
     ],
     'crazytje.com' : [
         A("@", VPS_IP),
