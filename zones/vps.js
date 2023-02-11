@@ -33,6 +33,7 @@ var domains = {
         CNAME('git', 'www'),
         CNAME('home-assistant', 'www'),
         CNAME('jenkins-nmd', 'www')
+        CNAME('harbor', 'www')
     ],
     'crazytje.com' : [
         A("@", VPS_IP),
