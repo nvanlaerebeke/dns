@@ -9,6 +9,7 @@ var domains = {
         CNAME('gateway', 'www'),
         CNAME('nas', 'www'),
         CNAME('web', 'www'),
+        CNAME('commit', 'www'),
         CNAME('registry', 'www'),
         CNAME('registry-ui', 'www'),
         CNAME('repo', 'www'),
