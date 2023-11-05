@@ -40,6 +40,7 @@ var domains = {
         CNAME('minio-nmd-console', 'www'),
         CNAME('mail-nmd', 'www'),
         CNAME('host', 'www')
+        CNAME('store', 'www')
     ],
     'crazytje.com' : [
         A("@", VPS_IP),
