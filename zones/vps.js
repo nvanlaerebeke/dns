@@ -42,15 +42,7 @@ var domains = {
         CNAME('host', 'www'),
         CNAME('store', 'www'),
         CNAME('photos', 'www')
-    ],
-    'crazytje.com' : [
-        A("@", VPS_IP),
-        CNAME('*', '@')
-    ],
-    'crazytje.be' : [
-        A("@", VPS_IP),
-        CNAME('*', '@')
-    ],
+    ]
 };
 
 var DSP_HETZNER = DnsProvider(NewDnsProvider("hetzner"));
