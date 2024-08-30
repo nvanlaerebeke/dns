@@ -4,7 +4,7 @@ var domains = {
         A("@", VPS_IP),
         CNAME('*', '@')
     ],
-    'crazyzone.be.' : [
+    'crazyzone.be' : [
         A("www", VPS_IP),
         CNAME('gateway', 'www'),
         CNAME('nas', 'www'),
@@ -43,11 +43,11 @@ var domains = {
         CNAME('store', 'www'),
         CNAME('photos', 'www')
     ],
-    'crazytje.com.' : [
+    'crazytje.com' : [
         A("@", VPS_IP),
         CNAME('*', '@')
     ],
-    'crazytje.be.' : [
+    'crazytje.be' : [
         A("@", VPS_IP),
         CNAME('*', '@')
     ],
