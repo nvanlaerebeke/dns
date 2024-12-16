@@ -41,7 +41,8 @@ var domains = {
         CNAME('mail-nmd', 'www'),
         CNAME('host', 'www'),
         CNAME('store', 'www'),
-        CNAME('photos', 'www')
+        CNAME('photos', 'www'),
+        CNAME('wekan', 'www')
     ],
     'crazytje.com' : [
         A("@", VPS_IP),
