@@ -34,6 +34,7 @@ var domains = {
     ],
     'crazytje.com' : [
         A("@", VPS_IP),
+        A("rustdesk", "162.55.160.10"),
         CNAME('*', '@')
     ],
     'crazytje.be' : [
