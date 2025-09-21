@@ -1,4 +1,4 @@
-var VPS_IP = "162.55.160.10";
+var VPS_IP = "138.201.157.142";
 var domains = {
     'crazymanga.be' : [
         A("@", VPS_IP),
